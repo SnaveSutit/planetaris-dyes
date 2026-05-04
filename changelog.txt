@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.2
+Version: 1.0.3
 Date: 2026-05-04
   Changes:
     - Change magenta dye recipe (10 Electrolyte -> 1 Tungsten ore) with tellus compatibility
