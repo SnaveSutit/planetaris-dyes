@@ -66,6 +66,13 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
 		setting_type = "startup",
 		default_value = false,
 		order = "c-a",
+	},
+    {
+		type = "bool-setting",
+		name = "dye-early-unlock",
+		setting_type = "startup",
+		default_value = false,
+		order = "c-b",
 	}		
 	})
 end
