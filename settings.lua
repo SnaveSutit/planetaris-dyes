@@ -57,3 +57,22 @@ data.extend({
 		order = "b-e",
 	}
 })
+
+if mods["space-age"] and not mods["planetaris-tellus"] then
+	data.extend({
+    {
+		type = "bool-setting",
+		name = "disable-gleba-recipe-surface-conditions",
+		setting_type = "startup",
+		default_value = false,
+		order = "c-a",
+	},
+    {
+		type = "bool-setting",
+		name = "dye-early-unlock",
+		setting_type = "startup",
+		default_value = false,
+		order = "c-b",
+	}		
+	})
+end

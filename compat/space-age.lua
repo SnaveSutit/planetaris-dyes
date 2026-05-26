@@ -116,9 +116,11 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
     },
     })
 
-    if data.raw.technology["planetaris-primary-dyes"] then
-        table.insert(data.raw.technology["planetaris-primary-dyes"].unit.ingredients, {"agricultural-science-pack", 1})
-        table.insert(data.raw.technology["planetaris-primary-dyes"].prerequisites, "agricultural-science-pack")
+    if settings.startup["dye-early-unlock"].value == false then
+        if data.raw.technology["planetaris-primary-dyes"] then
+            table.insert(data.raw.technology["planetaris-primary-dyes"].unit.ingredients, {"agricultural-science-pack", 1})
+            table.insert(data.raw.technology["planetaris-primary-dyes"].prerequisites, "agricultural-science-pack")
+        end
     end
 
     if settings.startup["dye-secondary-color"].value == true then
@@ -241,9 +243,11 @@ if mods["space-age"] and not mods["planetaris-tellus"] then
 
     })
 
-    if data.raw.technology["planetaris-secondary-dyes"] then
-        table.insert(data.raw.technology["planetaris-secondary-dyes"].unit.ingredients, {"agricultural-science-pack", 1})
-        table.insert(data.raw.technology["planetaris-secondary-dyes"].prerequisites, "agricultural-science-pack")
+    if settings.startup["dye-early-unlock"].value == false then
+        if data.raw.technology["planetaris-secondary-dyes"] then
+            table.insert(data.raw.technology["planetaris-secondary-dyes"].unit.ingredients, {"agricultural-science-pack", 1})
+            table.insert(data.raw.technology["planetaris-secondary-dyes"].prerequisites, "agricultural-science-pack")
+        end
     end
 
     end    

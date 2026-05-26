@@ -1,4 +1,29 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2026-05-26
+  Changes:
+    - Added early unlock setting, not avaliable with Tellus
+  Locale:
+    - Added Polish locale by Hacai
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2026-04-30
+  Changes:
+    - Change magenta dye recipe (10 Electrolyte -> 1 Tungsten ore)
+  Bugfixes:
+    - Fixed K2SO pipes dont connecting to mining drills
+    - Fixed Disable gleba surface conditions setting not working
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2026-04-27
+  Features:
+    - Added setting to ignore gleba surface condition in recipes, only when tellus is not installed
+  Locale:
+    - Added spanish locale
+    - Fixed missing locale
+  Bugfixes:
+    - Fixed breaking steel pipes in Krastorio 2 SO
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-04-21
   Features:
