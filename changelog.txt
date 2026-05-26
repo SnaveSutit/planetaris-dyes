@@ -1,10 +1,15 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.3
+Version: 1.0.4
 Date: 2026-05-26
   Changes:
     - Added early unlock setting, not avaliable with Tellus
   Locale:
     - Added Polish locale by Hacai
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2026-05-04
+  Changes:
+    - Change magenta dye recipe (10 Electrolyte -> 1 Tungsten ore) with tellus compatibility
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2026-04-30
