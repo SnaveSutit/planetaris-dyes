@@ -143,7 +143,7 @@ data.extend({
     {
         {type = "item",  name = "planetaris-red-dye",   amount = 5},
         {type = "item",  name = "planetaris-blue-dye",  amount = 5},
-        {type = "fluid", name = "electrolyte",          amount = 5},
+        {type = "item",  name = "tungsten-ore",         amount = 1},
     },
     results = {{type="item", name="planetaris-magenta-dye", amount=10}},
     crafting_machine_tint =
